@@ -1,5 +1,23 @@
 Estimate the ancestor composition of your genome using DNA match segment data and information about common ancestors.
 
+
+#### Detailed Directions
+1.  Open the notebook Ancestor_Composition_Solver in Google colab.
+2. Download matching segment data CSV files from [23andMe](https://www.23andme.com/), [MyHeritage](https://www.myheritage.com/), and/or [FamilyTree DNA](https://www.familytreedna.com/).
+3.   For some of your matches (at least 25 - 300 individuals, for best results), identify the most recent common ancestor or ancestral couple that you share with the match.  This can be done using MyHeritage "Theory of Relativity", Ancestry "ThruLines", FamilyTree DNA, or 23AndMe "Family Tree".  Record this information in a "Common Ancestor" CSV file with five columns and a header row:
+    1)   "Match Name", a column for which each row contains the names of a matching individual as it appears in a matching segment CSV file.
+    2)  "Male Ancestor Name".  Each row of this column contains the name of the most recent male ancestor that you share with the matching individual.
+    3)  "Male Ancestor #", the [ahnentafel number](https://en.wikipedia.org/wiki/Ahnentafel) of the common male ancestor.
+    4) "Female Ancestor Name".  Each row of this column contains the name of the most recent female ancestor that you share with the matching individual.
+    5) "Female Ancestor #", the ahnentafel number of the common female ancestor.
+ 4. If there is both a "Male Ancestor #" and a "Female Ancestor #" in a given row, then it must be true that "Female Ancestor #" = "Male Ancestor #" + 1.
+5. Click on the folder icon to the left to expand the "Files" pane.
+ 6. Click the "Upload to session storage" button which will appear in the upper left to upload CSV files for match shared segments (from MyHeritage, FamilyTree DNA, and/or 23andMe) and the CSV file (from Step 2) with common ancestor information for some of your matches.
+7. Run the Ancestor Composition Solver.  The results will be displayed in:
+    * An ideogram showing which regions of your chromosomes were inherited from specific ancestors.
+   *  A fan chart showing the percentage of your genome inherited from ancestors in each generation.
+8. You may export the results to a CSV file.
+
 ### FAQ
 1.   How does this notebook preserve my privacy?
       * The CSV files that you upload are stored in a temporary private Google Colab workspace and are not available to others.   
