@@ -18,7 +18,7 @@ Estimate the ancestor composition of your genome using DNA match segment data an
 8. You may export the results to a CSV file.
 
 ### FAQ
-1.   How does this notebook preserve my privacy?
+1.   How does the notebook preserve my privacy?
       * The CSV files that you upload are stored in a temporary private Google Colab workspace and are not available to others.   
       * The data is anonymized (all names removed) before a solver API is called to estimate your ancestral composition.
       * This Colab notebook with your ancestral composition will be private to you unless you share it with others.
