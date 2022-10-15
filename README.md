@@ -38,13 +38,13 @@ Estimate the ancestor composition of your genome using DNA match segment data an
     * Please note that the results can only be as accurate as the provided common ancestor information.
 
 4. Who is the developer?
-    * Joshua Isom is a professional data scientist with an MS in Computer Science and a PhD in Chemical Engineering.  He is also a family history enthusiast.
+    * The developer is a professional data scientist (MS Computer Science, PhD Chemical Engineering) and family history enthusiast.
 
 5. Questions or problems running this notebook?
      * Please send an email to info@ancestorcomposition.com
 
 ### License
-Copyright 2022 by Joshua David Isom
+Copyright 2022 
 
 This notebook is licensed for personal, noncommercial use under the folllowing terms:
 https://creativecommons.org/licenses/by-nc-nd/4.0/
