@@ -10,9 +10,8 @@ Estimate the ancestor composition of your genome using DNA match segment data an
     3)  "Male Ancestor #", the [ahnentafel number](https://en.wikipedia.org/wiki/Ahnentafel) of the common male ancestor.
     4) "Female Ancestor Name".  Each row of this column contains the name of the most recent female ancestor that you share with the matching individual.
     5) "Female Ancestor #", the ahnentafel number of the common female ancestor.
- 4. If there is both a "Male Ancestor #" and a "Female Ancestor #" in a given row, then it must be true that "Female Ancestor #" = "Male Ancestor #" + 1.
 5. Click on the folder icon in Google Colab to expand the "Files" pane.
- 6. Click the "Upload to session storage" button which will appear in the upper left of Google Colab to upload CSV files for match shared segments (from MyHeritage, FamilyTree DNA, and/or 23andMe) and the CSV file (from Step 2) with common ancestor information for some of your matches.
+ 6. Click the "Upload to session storage" button which will appear in the upper left of Google Colab to upload CSV files for match shared segments (from MyHeritage, FamilyTree DNA, and/or 23andMe) and the CSV file (from Step 4) with common ancestor information for some of your matches.
 7. Run the Ancestor Composition Solver.  The results will be displayed in:
     * An ideogram showing which regions of your chromosomes were inherited from specific ancestors.
    *  A fan chart showing the percentage of your genome inherited from ancestors in each generation.
