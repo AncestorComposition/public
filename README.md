@@ -38,7 +38,7 @@ Estimate the ancestor composition of your genome using DNA match segment data an
     * Please note that the results can only be as accurate as the provided common ancestor information.
 
 4. Who is the developer?
-    * The developer is a professional data scientist (MS Computer Science, PhD Chemical Engineering) and family history enthusiast.
+    * The developer is a professional data scientist and family history enthusiast.
 
 5. Questions or problems running this notebook?
      * Please send an email to info@ancestorcomposition.com
