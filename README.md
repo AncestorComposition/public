@@ -44,7 +44,6 @@ Estimate the ancestor composition of your genome using DNA match segment data an
      * Please send an email to info@ancestorcomposition.com
 
 ### License
-Copyright 2022 
 
 This notebook is licensed for personal, noncommercial use under the folllowing terms:
 https://creativecommons.org/licenses/by-nc-nd/4.0/
