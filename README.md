@@ -41,7 +41,7 @@ Estimate the ancestor composition of your genome using DNA match segment data an
     * The developer is a professional data scientist and family history enthusiast.
 
 5. Questions or problems running this notebook?
-     * Please send an email to info@ancestorcomposition.com
+     * Please post issues to https://github.com/AncestorComposition/public/issues
 
 ### License
 
